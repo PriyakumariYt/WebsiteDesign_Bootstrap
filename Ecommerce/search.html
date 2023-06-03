@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <!-- fontawesome cdn For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEys
+h0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDG
+MN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ==============search section ends here============== -->
+    <section class="search_section py-5 my-5" id="search_section">
+      <div class="container">
+        <div class="title text-center mb-5">
+          <h2><i class="far fa-file mr-2"></i>Search</h2>
+        </div>
+        <div class="row">
+          <!-- BEGIN RESULT -->
+          <div class="col-md-10 mx-auto">
+            <!-- BEGIN SEARCH INPUT -->
+            <div class="input-group">
+              <input type="text" class="form-control" value="shirts" />
+              <span class="input-group-btn"
+                ><button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+            <!-- END SEARCH INPUT -->
+            <small>Showing all results matching "shirts"</small>
+            <!-- BEGIN TABLE RESULT -->
+            <div class="table-responsive mt-3">
+              <table class="table table-hover">
+                <tbody class="border-bottom">
+                  <tr>
+                    <td class="number text-center">1</td>
+                    <td class="image">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/612/612/kf4ajrk0-0/shirt/n/w/b/38-11758158-here-now-original-imafvng6f3zhekfu.jpeg?q=70"
+                        width="100px"
+                        class="img img-fluid"
+                        alt=""
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>Product 1</strong><br />This is the product
+                      description.
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star-half-o"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">₹350</td>
+                  </tr>
+                  <tr>
+                    <td class="number text-center">2</td>
+                    <td class="image">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/612/612/jw6pifk0/shirt/4/a/s/42-8889511-roadster-original-imafgwhd8nd2qjhh.jpeg?q=70"
+                        width="100px"
+                        class="img img-fluid"
+                        alt=""
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>Product 1</strong><br />This is the product
+                      description.
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star-half-o"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">₹350</td>
+                  </tr>
+                  <tr>
+                    <td class="number text-center">3</td>
+                    <td class="image">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/h/z/k/xl-st1-vebnor-original-imagn7hdhtgpghjk.jpeg?q=70"
+                        width="100px"
+                        class="img img-fluid"
+                        alt=""
+                      />
+                    </td>
+                    <td class="product">
+                      <strong>Product 1</strong><br />This is the product
+                      description.
+                    </td>
+                    <td class="rate text-right">
+                      <span
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star"></i><i class="fa fa-star"></i
+                        ><i class="fa fa-star-half-o"></i
+                      ></span>
+                    </td>
+                    <td class="price text-right">₹350</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- END TABLE RESULT -->
+          </div>
+          <!-- END RESULT -->
+        </div>
+      </div>
+    </section>
+    <!-- ==============search section ends here============== -->
+  </body>
+</html>

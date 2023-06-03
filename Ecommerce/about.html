@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawesome cdn For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEys
+h0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDG
+MN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <style>
+    body{
+        background: rgb(171,210,46);
+background: linear-gradient(260deg, rgba(171,210,46,1) 0%, rgba(244,192,203,1) 47%, rgba(95,199,117,1) 100%);
+    }
+  </style>
+  <body>
+    <!-- ==============about starts here============== -->
+    <section class="about py-5 my-5" id="about">
+      <div class="container">
+        <div class="section_title text-center mb-5">
+          <h1 class="text-capitalize">About Us</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <img
+                  src="https://media.istockphoto.com/id/1163589059/photo/about-us.jpg?s=612x612&w=0&k=20&c=xiAumkYaKpQc3xepslDpn-lFhYPae6ivX_rRkgSXJgs="
+                  class="img img-fluid rounded shadow-lg"
+                  alt="about us image"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="title">
+                  <h3>Our Mission</h3>
+                </div>
+                <div class="about_text mt-sm-5">
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Totam sed quidem eum molestiae sunt praesentium enim ea
+                    magni ipsam aliquid, quibusdam, neque minus necessitatibus
+                    maxime quos facere laborum illo. Eaque!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Dolor nisi natus, rem accusamus sunt numquam debitis et nemo
+                    mollitia saepe veniam illo magnam impedit? Odio iure
+                    reprehenderit nihil eius quibusdam quisquam, tempora cum
+                    asperioressimilique sequi rem, exercitationem perspiciatis
+                    non!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt provident odio tempora natus et consequatur
+                    distinctio, minima, porro libero officia, eos voluptatibus
+                    ad dolore expedita repudiandae. Vel exercitationem corrupti
+                    rem nisi, fuga deserunt suscipit minus quisquam voluptatem?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- ==============testimonial starts here============== -->
+          <section class="text-center bg-info my-5 py-5 rounded">
+            <div class="col-md-10 col-10 mx-auto">
+              <!-- Carousel Wrapper -->
+              <div
+                id="carousel-example-1"
+                class="carousel slide carousel-fade"
+                data-ride="carousel"
+                data-interval="false"
+              >
+                <!--Slides-->
+                <div class="carousel-inner">
+                  <!--First slide-->
+                  <div class="carousel-item active">
+                    <div class="testimonial">
+                      <!--Avatar-->
+                      <div class="avatar mx-auto mb-4">
+                        <img
+                          src="data:image/jpeg;base64,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"
+                          class="rounded-circle img-fluid"
+                          alt="First sample avatar image"
+                        />
+                      </div>
+                      <!--Content-->
+                      <p>
+                        <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Quod eos id officiis
+                        hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit. Dolore cum
+                        accusamus eveniet molestias voluptatum inventore
+                        laboriosam labore sit, aspernatur praesentium iste
+                        impedit quidem dolor veniam.
+                      </p>
+                      <h4 class="font-weight-bold">Anna Deynah</h4>
+                      <h6 class="font-weight-bold my-3">
+                        Founder at ET Company
+                      </h6>
+                      <!--Review-->
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star-half-alt blue-text"> </i>
+                    </div>
+                  </div>
+                  <!--First slide-->
+                  <!--Second slide-->
+                  <div class="carousel-item">
+                    <div class="testimonial">
+                      <!--Avatar-->
+                      <div class="avatar mx-auto mb-4">
+                        <img
+                          src="https://www.humangivens.com/wp-content/uploads/2019/05/sue-hanisch.jpg"
+                          class="rounded-circle img-fluid"
+                          alt="Second sample avatar image"
+                        />
+                      </div>
+                      <!--Content-->
+                      <p>
+                        <i class="fas fa-quote-left"></i> Nemo enim ipsam
+                        voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit, sed quia consequuntur magni dolores eos qui
+                        ratione voluptatem sequi nesciunt. Neque porro quisquam
+                        est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                        adipisci velit, sed quia non numquam eius modi tempora
+                        incidunt ut labore.
+                      </p>
+                      <h4 class="font-weight-bold">Maria Kate</h4>
+                      <h6 class="font-weight-bold my-3">
+                        Photographer at Studio LA
+                      </h6>
+                      <!--Review-->
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                    </div>
+                  </div>
+                  <!--Second slide-->
+                  <!--Third slide-->
+                  <div class="carousel-item">
+                    <div class="testimonial">
+                      <!--Avatar-->
+                      <div class="avatar mx-auto mb-4">
+                        <img
+                          src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4NjYyMzA3MXx8ZW58MHx8fHx8&w=1000&q=80"
+                          class="rounded-circle img-fluid"
+                          alt="Third sample avatar image"
+                        />
+                      </div>
+                      <!--Content-->
+                      <p>
+                        <i class="fas fa-quote-left"></i> Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum. Sed ut perspiciatis
+                        unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium.
+                      </p>
+                      <h4 class="font-weight-bold">John Doe</h4>
+                      <h6 class="font-weight-bold my-3">
+                        Front-end Developer in NY
+                      </h6>
+                      <!--Review-->
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="fas fa-star blue-text"> </i>
+                      <i class="far fa-star blue-text"> </i>
+                    </div>
+                  </div>
+                  <!--Third slide-->
+                </div>
+                <!--Slides-->
+                <!--Controls-->
+                <a
+                  class="carousel-control-prev left carousel-control"
+                  href="#carousel-example-1"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next right carousel-control"
+                  href="#carousel-example-1"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+                <!--Controls-->
+              </div>
+              <!-- Carousel Wrapper -->
+            </div>
+          </section>
+          <!-- ==============testimonial ends here============== -->
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3 col-6">
+            <div class="border border-dark rounded shadow text-center p-3">
+              <div class="mb-4">
+                <i class="far fa-credit-card fa-3x"></i>
+              </div>
+              <div>
+                <h5>Credit Card Support</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 mt-small-2 mb-small-2">
+            <div class="border border-primary rounded shadow text-center p-3">
+              <div class="mb-4">
+                <i class="fas fa-laptop fa-3x"></i>
+              </div>
+              <div>
+                <h5>Online Order</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="border border-success rounded shadow text-center p-3">
+              <div class="mb-4">
+                <i class="fas fa-shipping-fast fa-3x"></i>
+              </div>
+              <div>
+                <h5>Fast Delivery</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="border border-danger rounded shadow text-center p-3">
+              <div class="mb-4">
+                <i class="fas fa-gifts fa-3x"></i>
+              </div>
+              <div>
+                <h5>Product with Gift</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==============about ends here============== -->
+  </body>
+</html>
